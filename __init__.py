@@ -5,10 +5,6 @@
 Be sure to symlink this program to your /usr/local/bin/get-latlng
 
 Usage:
-  get-latlng ship new <name>...
-  get-latlng ship <name> move <x> <y> [--speed=<kn>]
-  get-latlng ship shoot <x> <y>
-  get-latlng mine (set|remove) <x> <y> [--moored | --drifting]
   get-latlng my <latlng>
   get-latlng (-h | --help)
   get-latlng --version
@@ -16,9 +12,6 @@ Usage:
 Options:
   -h --help     Show this screen.
   --version     Show version.
-  --speed=<kn>  Speed in knots [default: 10].
-  --moored      Moored (anchored) mine.
-  --drifting    Drifting mine.
 
 """
 from docopt import docopt
